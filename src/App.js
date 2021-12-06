@@ -1,21 +1,13 @@
 import React from 'react';
-import CartSummary from './components/CartSummary';
-import Products from './components/Products';
+import cover from "./images/cover.jpeg";
 
 import './App.css';
 
 function App() {
   return (
     <main>
-      <h1>Buy Our Products!</h1>
-      <p>
-        {`This demo is in test mode. That means you can check out using any of
-        the `}
-        <a href="https://stripe.com/docs/testing#cards">test card numbers</a>.
-      </p>
-
-      <CartSummary />
-      <Products />
+      <h1>Coming soon!</h1>
+      <img src={cover} alt="two mugs on a log" style={{width: "300px", height: '300px'}}/>
     </main>
   );
 }
